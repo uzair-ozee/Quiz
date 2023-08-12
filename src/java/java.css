@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_java_div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+.java_question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+}
+
+.java_question .question h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 2rem;
+    width: 40rem;    
+}
+
+.java_question ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.java_opt_btn{
+    width: 25rem;
+    padding: 0.8rem;
+    font-size: larger;
+}

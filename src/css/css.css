@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_css_div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+.css_question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    height: 30rem;
+}
+
+.css_question h2{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.css_question ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.css__btn{
+    width: 25rem;
+    padding: 0.8rem;
+    font-size: larger;
+}
